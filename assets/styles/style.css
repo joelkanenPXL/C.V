@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: "PT Sans", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #ffffff 0%, #4b4949 100%);
+    background-position: fixed;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    background: #00000081;
+    width: 100%;
+    border-bottom-color: #0084ff;
+    border-bottom-style: solid;
+    height: auto;
+    height: 5%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin-right: 20px;
+    border-left-color: #0084ff;
+    border-left-style: solid;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+    border-right-color: #0084ff;
+    border-right-style: solid;
+    padding-right: 10%;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #0084ff;
+}
+
+.nav-list li a:hover {
+    color: #000000;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+section h1 {
+    font-size: xx-large;
+    color: #0084ff;
+}
+
+section div {
+    background: #0000009d;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #000000c0;
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid #0084ff;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#intro div p {
+    text-wrap: wrap;
+    text-align: center;
+    color:  #0084ff;
+}
+
+#intro #joel {
+    width: 10%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#intro #joel:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+#intro #joel.clicked {
+    border: 5px solid #0084ff;
+    box-shadow: none;
+}
+
+section {
+    margin-top: 5%;
+}
+
+#table {
+    width:100%;
+    border:1px outset #0084ff;
+    border-collapse:separate;
+    border-spacing:5px;
+    border-radius: 16px;
+}
+#table th {
+    border:1px outset #0084ff;
+    color: #0008ff;
+    border-radius: 16px;
+}
+
+#table td {
+    border:1px outset #0084ff;
+    text-align:center;
+    color: #0084ff;
+    border-radius: 16px;
+}
+
+.lititle {
+    list-style: circle inside;
+    padding-left: 0%;
+    font-size: large;
+    color: #0008ff;
+}
+
+.licomp {
+    list-style: disc inside;
+    padding-left: 5%;
+    font-size: medium;
+    color: #0084ff;
+}
+
+.lidate {
+    list-style: square inside;
+    padding-left: 10%;
+    font-size: small;
+    color: #000363;
+    margin-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #00000081;
+    width: 100%;
+    justify-content: space-between;
+    border-top-color: #0084ff;
+    border-top-style: solid;
+    height: 5%;
+}
+
+.left-footer {
+    float: left;
+    color: #0084ff;
+}
+
+.center-footer {
+    float: center;
+    color: #0084ff;
+}
+
+.right-footer {
+    float: right;
+    color: #0084ff;
+    background-color: transparent;
+    border-left-color: #0084ff;
+    border-left-style: solid;
+    border-right-color: #0084ff;
+    border-right-style: solid;
+}
+
+
